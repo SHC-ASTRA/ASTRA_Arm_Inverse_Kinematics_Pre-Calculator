@@ -28,5 +28,5 @@
   #define ARM_RELAY_PUBLIC_TYPE
 #endif
 #endif  // ARM_RELAY__VISIBILITY_CONTROL_H_
-// Generated 26-Feb-2022 00:00:09
+// Generated 26-Feb-2022 16:57:27
 // Copyright 2019-2020 The MathWorks, Inc.

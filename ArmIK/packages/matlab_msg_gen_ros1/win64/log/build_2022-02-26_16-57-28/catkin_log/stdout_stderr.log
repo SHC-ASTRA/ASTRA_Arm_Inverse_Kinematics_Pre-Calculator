@@ -1,0 +1,289 @@
+**********************************************************************
+** Visual Studio 2019 Developer Command Prompt v16.11.10
+** Copyright (c) 2021 Microsoft Corporation
+**********************************************************************
+[vcvarsall.bat] Environment initialized for: 'x86_x64'
+CMake Warning (dev) in CMakeLists.txt:
+  No project() command is present.  The top-level CMakeLists.txt file must
+  contain a literal, direct call to the project() command.  Add a line of
+  code such as
+
+    project(ProjectName)
+
+  near the top of the file, but after cmake_minimum_required().
+
+  CMake is pretending there is a "project(Project)" command on the first
+  line.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- The C compiler identification is MSVC 19.29.30140.0
+-- The CXX compiler identification is MSVC 19.29.30140.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.29.30133/bin/Hostx86/x64/cl.exe - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.29.30133/bin/Hostx86/x64/cl.exe - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+CMake Deprecation Warning at CMakeLists.txt:4 (cmake_minimum_required):
+  Compatibility with CMake < 2.8.12 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+
+-- Using CATKIN_DEVEL_PREFIX: C:/Users/trbin/Documents/GitHub/ASTRA_Arm_Inverse_Kinematics_Pre-Calculator/ArmIK/packages/matlab_msg_gen_ros1/win64/devel
+-- Using CMAKE_PREFIX_PATH: C:\Program Files\MATLAB\R2021b\sys\ros1\win64\ros1;C:/Program Files/MATLAB/R2021b/toolbox/ros/mlroscpp/custom_messages
+-- This workspace overlays: C:/Program Files/MATLAB/R2021b/sys/ros1/win64/ros1;C:/Program Files/MATLAB/R2021b/toolbox/ros/mlroscpp/custom_messages
+-- Found PythonInterp: C:/Users/trbin/AppData/Roaming/MathWorks/MATLAB/R2021b/ros1/win64/venv/Scripts/python2.exe (found suitable version "2.7.18", minimum required is "2") 
+-- Using PYTHON_EXECUTABLE: C:/Users/trbin/AppData/Roaming/MathWorks/MATLAB/R2021b/ros1/win64/venv/Scripts/python2.exe
+-- Using default Python package layout
+CMake Warning (dev) at C:/Program Files/CMake/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args` (PY_em) does
+  not match the name of the calling package (catkin).  This can lead to
+  problems in calling code that expects `find_package` result variables
+  (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  C:/Program Files/MATLAB/R2021b/sys/ros1/win64/ros1/share/catkin/cmake/empy.cmake:20 (find_package_handle_standard_args)
+  C:/Program Files/MATLAB/R2021b/sys/ros1/win64/ros1/share/catkin/cmake/empy.cmake:27 (find_python_module)
+  C:/Program Files/MATLAB/R2021b/sys/ros1/win64/ros1/share/catkin/cmake/all.cmake:164 (include)
+  C:/Program Files/MATLAB/R2021b/sys/ros1/win64/ros1/share/catkin/cmake/catkinConfig.cmake:20 (include)
+  CMakeLists.txt:56 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- Found PY_em: C:\Users\trbin\AppData\Roaming\MathWorks\MATLAB\R2021b\ros1\win64\venv\lib\site-packages\em.pyc  
+-- Using empy: C:/Users/trbin/AppData/Roaming/MathWorks/MATLAB/R2021b/ros1/win64/venv/lib/site-packages/em.pyc
+-- Using CATKIN_ENABLE_TESTING: off
+-- catkin 0.7.17
+-- BUILD_SHARED_LIBS is on
+-- BUILD_SHARED_LIBS is on
+-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-- ~~  traversing 2 packages in topological order:
+-- ~~  - arm_relay
+-- ~~  - end_effector_control
+-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-- +++ processing catkin package: 'arm_relay'
+-- ==> add_subdirectory(arm_relay)
+-- Disabling the following message generators: geneus;genlisp;gennodejs
+-- Using these message generators: gencpp;genpy
+-- arm_relay: 2 messages, 2 services
+-- +++ processing catkin package: 'end_effector_control'
+-- ==> add_subdirectory(end_effector_control)
+-- Disabling the following message generators: geneus;genlisp;gennodejs
+-- Using these message generators: gencpp;genpy
+-- end_effector_control: 2 messages, 2 services
+-- Configuring done
+-- Generating done
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    Boost_NAMESPACE
+
+
+-- Build files have been written to: C:/Users/trbin/Documents/GitHub/ASTRA_Arm_Inverse_Kinematics_Pre-Calculator/ArmIK/packages/matlab_msg_gen_ros1/win64/build
+[1/41] cmd.exe /C "cd /D C:\Users\trbin\Documents\GitHub\ASTRA_Arm_Inverse_Kinematics_Pre-Calculator\ArmIK\packages\matlab_msg_gen_ros1\win64\build\arm_relay && C:\Users\trbin\Documents\GitHub\ASTRA_Arm_Inverse_Kinematics_Pre-Calculator\ArmIK\packages\matlab_msg_gen_ros1\win64\build\catkin_generated\env_cached.bat C:/Users/trbin/AppData/Roaming/MathWorks/MATLAB/R2021b/ros1/win64/venv/Scripts/python2.exe "C:/Program Files/MATLAB/R2021b/sys/ros1/win64/ros1/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py" arm_relay C:/Users/trbin/Documents/GitHub/ASTRA_Arm_Inverse_Kinematics_Pre-Calculator/ArmIK/packages/matlab_msg_gen_ros1/win64/src/arm_relay/msg/JointRateCommand.msg "
+[2/41] cmd.exe /C "cd /D C:\Users\trbin\Documents\GitHub\ASTRA_Arm_Inverse_Kinematics_Pre-Calculator\ArmIK\packages\matlab_msg_gen_ros1\win64\build\arm_relay && C:\Users\trbin\Documents\GitHub\ASTRA_Arm_Inverse_Kinematics_Pre-Calculator\ArmIK\packages\matlab_msg_gen_ros1\win64\build\catkin_generated\env_cached.bat C:/Users/trbin/AppData/Roaming/MathWorks/MATLAB/R2021b/ros1/win64/venv/Scripts/python2.exe "C:/Program Files/MATLAB/R2021b/sys/ros1/win64/ros1/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py" arm_relay C:/Users/trbin/Documents/GitHub/ASTRA_Arm_Inverse_Kinematics_Pre-Calculator/ArmIK/packages/matlab_msg_gen_ros1/win64/src/arm_relay/srv/HomeArmBase.srv "
+[3/41] cmd.exe /C "cd /D C:\Users\trbin\Documents\GitHub\ASTRA_Arm_Inverse_Kinematics_Pre-Calculator\ArmIK\packages\matlab_msg_gen_ros1\win64\build\end_effector_control && C:\Users\trbin\Documents\GitHub\ASTRA_Arm_Inverse_Kinematics_Pre-Calculator\ArmIK\packages\matlab_msg_gen_ros1\win64\build\catkin_generated\env_cached.bat C:/Users/trbin/AppData/Roaming/MathWorks/MATLAB/R2021b/ros1/win64/venv/Scripts/python2.exe "C:/Program Files/MATLAB/R2021b/sys/ros1/win64/ros1/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py" end_effector_control C:/Users/trbin/Documents/GitHub/ASTRA_Arm_Inverse_Kinematics_Pre-Calculator/ArmIK/packages/matlab_msg_gen_ros1/win64/src/end_effector_control/srv/EnableServos.srv "
+[4/41] cmd.exe /C "cd /D C:\Users\trbin\Documents\GitHub\ASTRA_Arm_Inverse_Kinematics_Pre-Calculator\ArmIK\packages\matlab_msg_gen_ros1\win64\build\arm_relay && C:\Users\trbin\Documents\GitHub\ASTRA_Arm_Inverse_Kinematics_Pre-Calculator\ArmIK\packages\matlab_msg_gen_ros1\win64\build\catkin_generated\env_cached.bat C:/Users/trbin/AppData/Roaming/MathWorks/MATLAB/R2021b/ros1/win64/venv/Scripts/python2.exe "C:/Program Files/MATLAB/R2021b/sys/ros1/win64/ros1/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py" arm_relay C:/Users/trbin/Documents/GitHub/ASTRA_Arm_Inverse_Kinematics_Pre-Calculator/ArmIK/packages/matlab_msg_gen_ros1/win64/src/arm_relay/msg/ActuatorFeedback.msg "
+[5/41] cmd.exe /C "cd /D C:\Users\trbin\Documents\GitHub\ASTRA_Arm_Inverse_Kinematics_Pre-Calculator\ArmIK\packages\matlab_msg_gen_ros1\win64\build\end_effector_control && C:\Users\trbin\Documents\GitHub\ASTRA_Arm_Inverse_Kinematics_Pre-Calculator\ArmIK\packages\matlab_msg_gen_ros1\win64\build\catkin_generated\env_cached.bat C:/Users/trbin/AppData/Roaming/MathWorks/MATLAB/R2021b/ros1/win64/venv/Scripts/python2.exe "C:/Program Files/MATLAB/R2021b/sys/ros1/win64/ros1/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py" end_effector_control C:/Users/trbin/Documents/GitHub/ASTRA_Arm_Inverse_Kinematics_Pre-Calculator/ArmIK/packages/matlab_msg_gen_ros1/win64/src/end_effector_control/msg/ActuatorFeedback.msg "
+[6/41] cmd.exe /C "cd /D C:\Users\trbin\Documents\GitHub\ASTRA_Arm_Inverse_Kinematics_Pre-Calculator\ArmIK\packages\matlab_msg_gen_ros1\win64\build\end_effector_control && C:\Users\trbin\Documents\GitHub\ASTRA_Arm_Inverse_Kinematics_Pre-Calculator\ArmIK\packages\matlab_msg_gen_ros1\win64\build\catkin_generated\env_cached.bat C:/Users/trbin/AppData/Roaming/MathWorks/MATLAB/R2021b/ros1/win64/venv/Scripts/python2.exe "C:/Program Files/MATLAB/R2021b/sys/ros1/win64/ros1/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py" end_effector_control C:/Users/trbin/Documents/GitHub/ASTRA_Arm_Inverse_Kinematics_Pre-Calculator/ArmIK/packages/matlab_msg_gen_ros1/win64/src/end_effector_control/msg/JointRateCommand.msg "
+[7/41] cmd.exe /C "cd /D C:\Users\trbin\Documents\GitHub\ASTRA_Arm_Inverse_Kinematics_Pre-Calculator\ArmIK\packages\matlab_msg_gen_ros1\win64\build\arm_relay && C:\Users\trbin\Documents\GitHub\ASTRA_Arm_Inverse_Kinematics_Pre-Calculator\ArmIK\packages\matlab_msg_gen_ros1\win64\build\catkin_generated\env_cached.bat C:/Users/trbin/AppData/Roaming/MathWorks/MATLAB/R2021b/ros1/win64/venv/Scripts/python2.exe "C:/Program Files/MATLAB/R2021b/sys/ros1/win64/ros1/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py" arm_relay C:/Users/trbin/Documents/GitHub/ASTRA_Arm_Inverse_Kinematics_Pre-Calculator/ArmIK/packages/matlab_msg_gen_ros1/win64/src/arm_relay/srv/EnableActuators.srv "
+[8/41] cmd.exe /C "cd /D C:\Users\trbin\Documents\GitHub\ASTRA_Arm_Inverse_Kinematics_Pre-Calculator\ArmIK\packages\matlab_msg_gen_ros1\win64\build\end_effector_control && C:\Users\trbin\Documents\GitHub\ASTRA_Arm_Inverse_Kinematics_Pre-Calculator\ArmIK\packages\matlab_msg_gen_ros1\win64\build\catkin_generated\env_cached.bat C:/Users/trbin/AppData/Roaming/MathWorks/MATLAB/R2021b/ros1/win64/venv/Scripts/python2.exe "C:/Program Files/MATLAB/R2021b/sys/ros1/win64/ros1/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py" end_effector_control C:/Users/trbin/Documents/GitHub/ASTRA_Arm_Inverse_Kinematics_Pre-Calculator/ArmIK/packages/matlab_msg_gen_ros1/win64/src/end_effector_control/srv/Home.srv "
+[9/41] Generating C++ code from arm_relay/ActuatorFeedback.msg
+[10/41] Generating C++ code from arm_relay/JointRateCommand.msg
+[11/41] Generating C++ code from end_effector_control/ActuatorFeedback.msg
+[12/41] Generating C++ code from arm_relay/HomeArmBase.srv
+[13/41] Generating C++ code from end_effector_control/EnableServos.srv
+[14/41] Generating C++ code from arm_relay/EnableActuators.srv
+[15/41] Generating Python code from SRV arm_relay/EnableActuators
+[16/41] Generating Python code from SRV arm_relay/HomeArmBase
+[17/41] Generating Python code from SRV end_effector_control/Home
+[18/41] Generating Python from MSG arm_relay/ActuatorFeedback
+[19/41] Generating Python from MSG arm_relay/JointRateCommand
+[20/41] Generating Python from MSG end_effector_control/ActuatorFeedback
+[21/41] Generating Python code from SRV end_effector_control/EnableServos
+[22/41] Generating Python from MSG end_effector_control/JointRateCommand
+[23/41] Building CXX object CMakeFiles\Project__setup_util.py_exec_install_python.dir\f81e684fb9e4ff71439b2914814ce514\_setup_util.py.cpp.obj
+[24/41] Generating C++ code from end_effector_control/Home.srv
+[25/41] Generating C++ code from end_effector_control/JointRateCommand.msg
+[26/41] Generating Python msg __init__.py for end_effector_control
+[27/41] Generating Python msg __init__.py for arm_relay
+[28/41] Generating Python srv __init__.py for arm_relay
+[29/41] Generating Python srv __init__.py for end_effector_control
+[30/41] Linking CXX executable catkin_generated\windows_wrappers\Project__setup_util.py_exec_install_python\_setup_util.py.exe
+[31/41] Building CXX object arm_relay\CMakeFiles\arm_relay_matlab.dir\src\arm_relay_JointRateCommand_message.cpp.obj
+[32/41] Building CXX object end_effector_control\CMakeFiles\end_effector_control_matlab.dir\src\end_effector_control_ActuatorFeedback_message.cpp.obj
+[33/41] Building CXX object arm_relay\CMakeFiles\arm_relay_matlab.dir\src\arm_relay_ActuatorFeedback_message.cpp.obj
+[34/41] Building CXX object end_effector_control\CMakeFiles\end_effector_control_matlab.dir\src\end_effector_control_JointRateCommand_message.cpp.obj
+[35/41] Building CXX object end_effector_control\CMakeFiles\end_effector_control_matlab.dir\src\end_effector_control_Home_service.cpp.obj
+[36/41] Building CXX object end_effector_control\CMakeFiles\end_effector_control_matlab.dir\src\end_effector_control_EnableServos_service.cpp.obj
+[37/41] Building CXX object arm_relay\CMakeFiles\arm_relay_matlab.dir\src\arm_relay_HomeArmBase_service.cpp.obj
+[38/41] Building CXX object arm_relay\CMakeFiles\arm_relay_matlab.dir\src\arm_relay_EnableActuators_service.cpp.obj
+[39/41] Linking CXX shared library C:\Users\trbin\Documents\GitHub\ASTRA_Arm_Inverse_Kinematics_Pre-Calculator\ArmIK\packages\matlab_msg_gen_ros1\win64\devel\bin\end_effector_control_matlab.dll
+[40/41] Linking CXX shared library C:\Users\trbin\Documents\GitHub\ASTRA_Arm_Inverse_Kinematics_Pre-Calculator\ArmIK\packages\matlab_msg_gen_ros1\win64\devel\bin\arm_relay_matlab.dll
+[40/41] Install the project...
+-- Install configuration: "Release"
+-- Installing: C:/Users/trbin/Documents/GitHub/ASTRA_Arm_Inverse_Kinematics_Pre-Calculator/ArmIK/packages/matlab_msg_gen_ros1/win64/install/_setup_util.py
+-- Installing: C:/Users/trbin/Documents/GitHub/ASTRA_Arm_Inverse_Kinematics_Pre-Calculator/ArmIK/packages/matlab_msg_gen_ros1/win64/install/_setup_util.py.exe
+-- Installing: C:/Users/trbin/Documents/GitHub/ASTRA_Arm_Inverse_Kinematics_Pre-Calculator/ArmIK/packages/matlab_msg_gen_ros1/win64/install/env.bat
+-- Installing: C:/Users/trbin/Documents/GitHub/ASTRA_Arm_Inverse_Kinematics_Pre-Calculator/ArmIK/packages/matlab_msg_gen_ros1/win64/install/setup.bat
+-- Installing: C:/Users/trbin/Documents/GitHub/ASTRA_Arm_Inverse_Kinematics_Pre-Calculator/ArmIK/packages/matlab_msg_gen_ros1/win64/install/local_setup.bat
+-- Installing: C:/Users/trbin/Documents/GitHub/ASTRA_Arm_Inverse_Kinematics_Pre-Calculator/ArmIK/packages/matlab_msg_gen_ros1/win64/install/.rosinstall
+-- Installing: C:/Users/trbin/Documents/GitHub/ASTRA_Arm_Inverse_Kinematics_Pre-Calculator/ArmIK/packages/matlab_msg_gen_ros1/win64/install/share/arm_relay/msg/ActuatorFeedback.msg
+-- Installing: C:/Users/trbin/Documents/GitHub/ASTRA_Arm_Inverse_Kinematics_Pre-Calculator/ArmIK/packages/matlab_msg_gen_ros1/win64/install/share/arm_relay/msg/JointRateCommand.msg
+-- Installing: C:/Users/trbin/Documents/GitHub/ASTRA_Arm_Inverse_Kinematics_Pre-Calculator/ArmIK/packages/matlab_msg_gen_ros1/win64/install/share/arm_relay/srv/EnableActuators.srv
+-- Installing: C:/Users/trbin/Documents/GitHub/ASTRA_Arm_Inverse_Kinematics_Pre-Calculator/ArmIK/packages/matlab_msg_gen_ros1/win64/install/share/arm_relay/srv/HomeArmBase.srv
+-- Installing: C:/Users/trbin/Documents/GitHub/ASTRA_Arm_Inverse_Kinematics_Pre-Calculator/ArmIK/packages/matlab_msg_gen_ros1/win64/install/share/arm_relay/cmake/arm_relay-msg-paths.cmake
+-- Installing: C:/Users/trbin/Documents/GitHub/ASTRA_Arm_Inverse_Kinematics_Pre-Calculator/ArmIK/packages/matlab_msg_gen_ros1/win64/install/include/arm_relay
+-- Installing: C:/Users/trbin/Documents/GitHub/ASTRA_Arm_Inverse_Kinematics_Pre-Calculator/ArmIK/packages/matlab_msg_gen_ros1/win64/install/include/arm_relay/ActuatorFeedback.h
+-- Installing: C:/Users/trbin/Documents/GitHub/ASTRA_Arm_Inverse_Kinematics_Pre-Calculator/ArmIK/packages/matlab_msg_gen_ros1/win64/install/include/arm_relay/EnableActuators.h
+-- Installing: C:/Users/trbin/Documents/GitHub/ASTRA_Arm_Inverse_Kinematics_Pre-Calculator/ArmIK/packages/matlab_msg_gen_ros1/win64/install/include/arm_relay/EnableActuatorsRequest.h
+-- Installing: C:/Users/trbin/Documents/GitHub/ASTRA_Arm_Inverse_Kinematics_Pre-Calculator/ArmIK/packages/matlab_msg_gen_ros1/win64/install/include/arm_relay/EnableActuatorsResponse.h
+-- Installing: C:/Users/trbin/Documents/GitHub/ASTRA_Arm_Inverse_Kinematics_Pre-Calculator/ArmIK/packages/matlab_msg_gen_ros1/win64/install/include/arm_relay/HomeArmBase.h
+-- Installing: C:/Users/trbin/Documents/GitHub/ASTRA_Arm_Inverse_Kinematics_Pre-Calculator/ArmIK/packages/matlab_msg_gen_ros1/win64/install/include/arm_relay/HomeArmBaseRequest.h
+-- Installing: C:/Users/trbin/Documents/GitHub/ASTRA_Arm_Inverse_Kinematics_Pre-Calculator/ArmIK/packages/matlab_msg_gen_ros1/win64/install/include/arm_relay/HomeArmBaseResponse.h
+-- Installing: C:/Users/trbin/Documents/GitHub/ASTRA_Arm_Inverse_Kinematics_Pre-Calculator/ArmIK/packages/matlab_msg_gen_ros1/win64/install/include/arm_relay/JointRateCommand.h
+Listing C:/Users/trbin/Documents/GitHub/ASTRA_Arm_Inverse_Kinematics_Pre-Calculator/ArmIK/packages/matlab_msg_gen_ros1/win64/devel/lib/site-packages/arm_relay ...
+Compiling C:/Users/trbin/Documents/GitHub/ASTRA_Arm_Inverse_Kinematics_Pre-Calculator/ArmIK/packages/matlab_msg_gen_ros1/win64/devel/lib/site-packages/arm_relay\__init__.py ...
+Listing C:/Users/trbin/Documents/GitHub/ASTRA_Arm_Inverse_Kinematics_Pre-Calculator/ArmIK/packages/matlab_msg_gen_ros1/win64/devel/lib/site-packages/arm_relay\msg ...
+Compiling C:/Users/trbin/Documents/GitHub/ASTRA_Arm_Inverse_Kinematics_Pre-Calculator/ArmIK/packages/matlab_msg_gen_ros1/win64/devel/lib/site-packages/arm_relay\msg\_ActuatorFeedback.py ...
+Compiling C:/Users/trbin/Documents/GitHub/ASTRA_Arm_Inverse_Kinematics_Pre-Calculator/ArmIK/packages/matlab_msg_gen_ros1/win64/devel/lib/site-packages/arm_relay\msg\_JointRateCommand.py ...
+Compiling C:/Users/trbin/Documents/GitHub/ASTRA_Arm_Inverse_Kinematics_Pre-Calculator/ArmIK/packages/matlab_msg_gen_ros1/win64/devel/lib/site-packages/arm_relay\msg\__init__.py ...
+Listing C:/Users/trbin/Documents/GitHub/ASTRA_Arm_Inverse_Kinematics_Pre-Calculator/ArmIK/packages/matlab_msg_gen_ros1/win64/devel/lib/site-packages/arm_relay\srv ...
+Compiling C:/Users/trbin/Documents/GitHub/ASTRA_Arm_Inverse_Kinematics_Pre-Calculator/ArmIK/packages/matlab_msg_gen_ros1/win64/devel/lib/site-packages/arm_relay\srv\_EnableActuators.py ...
+Compiling C:/Users/trbin/Documents/GitHub/ASTRA_Arm_Inverse_Kinematics_Pre-Calculator/ArmIK/packages/matlab_msg_gen_ros1/win64/devel/lib/site-packages/arm_relay\srv\_HomeArmBase.py ...
+Compiling C:/Users/trbin/Documents/GitHub/ASTRA_Arm_Inverse_Kinematics_Pre-Calculator/ArmIK/packages/matlab_msg_gen_ros1/win64/devel/lib/site-packages/arm_relay\srv\__init__.py ...
+-- Installing: C:/Users/trbin/Documents/GitHub/ASTRA_Arm_Inverse_Kinematics_Pre-Calculator/ArmIK/packages/matlab_msg_gen_ros1/win64/install/lib/site-packages/arm_relay
+-- Installing: C:/Users/trbin/Documents/GitHub/ASTRA_Arm_Inverse_Kinematics_Pre-Calculator/ArmIK/packages/matlab_msg_gen_ros1/win64/install/lib/site-packages/arm_relay/msg
+-- Installing: C:/Users/trbin/Documents/GitHub/ASTRA_Arm_Inverse_Kinematics_Pre-Calculator/ArmIK/packages/matlab_msg_gen_ros1/win64/install/lib/site-packages/arm_relay/msg/_ActuatorFeedback.py
+-- Installing: C:/Users/trbin/Documents/GitHub/ASTRA_Arm_Inverse_Kinematics_Pre-Calculator/ArmIK/packages/matlab_msg_gen_ros1/win64/install/lib/site-packages/arm_relay/msg/_ActuatorFeedback.pyc
+-- Installing: C:/Users/trbin/Documents/GitHub/ASTRA_Arm_Inverse_Kinematics_Pre-Calculator/ArmIK/packages/matlab_msg_gen_ros1/win64/install/lib/site-packages/arm_relay/msg/_JointRateCommand.py
+-- Installing: C:/Users/trbin/Documents/GitHub/ASTRA_Arm_Inverse_Kinematics_Pre-Calculator/ArmIK/packages/matlab_msg_gen_ros1/win64/install/lib/site-packages/arm_relay/msg/_JointRateCommand.pyc
+-- Installing: C:/Users/trbin/Documents/GitHub/ASTRA_Arm_Inverse_Kinematics_Pre-Calculator/ArmIK/packages/matlab_msg_gen_ros1/win64/install/lib/site-packages/arm_relay/msg/__init__.py
+-- Installing: C:/Users/trbin/Documents/GitHub/ASTRA_Arm_Inverse_Kinematics_Pre-Calculator/ArmIK/packages/matlab_msg_gen_ros1/win64/install/lib/site-packages/arm_relay/msg/__init__.pyc
+-- Installing: C:/Users/trbin/Documents/GitHub/ASTRA_Arm_Inverse_Kinematics_Pre-Calculator/ArmIK/packages/matlab_msg_gen_ros1/win64/install/lib/site-packages/arm_relay/srv
+-- Installing: C:/Users/trbin/Documents/GitHub/ASTRA_Arm_Inverse_Kinematics_Pre-Calculator/ArmIK/packages/matlab_msg_gen_ros1/win64/install/lib/site-packages/arm_relay/srv/_EnableActuators.py
+-- Installing: C:/Users/trbin/Documents/GitHub/ASTRA_Arm_Inverse_Kinematics_Pre-Calculator/ArmIK/packages/matlab_msg_gen_ros1/win64/install/lib/site-packages/arm_relay/srv/_EnableActuators.pyc
+-- Installing: C:/Users/trbin/Documents/GitHub/ASTRA_Arm_Inverse_Kinematics_Pre-Calculator/ArmIK/packages/matlab_msg_gen_ros1/win64/install/lib/site-packages/arm_relay/srv/_HomeArmBase.py
+-- Installing: C:/Users/trbin/Documents/GitHub/ASTRA_Arm_Inverse_Kinematics_Pre-Calculator/ArmIK/packages/matlab_msg_gen_ros1/win64/install/lib/site-packages/arm_relay/srv/_HomeArmBase.pyc
+-- Installing: C:/Users/trbin/Documents/GitHub/ASTRA_Arm_Inverse_Kinematics_Pre-Calculator/ArmIK/packages/matlab_msg_gen_ros1/win64/install/lib/site-packages/arm_relay/srv/__init__.py
+-- Installing: C:/Users/trbin/Documents/GitHub/ASTRA_Arm_Inverse_Kinematics_Pre-Calculator/ArmIK/packages/matlab_msg_gen_ros1/win64/install/lib/site-packages/arm_relay/srv/__init__.pyc
+-- Installing: C:/Users/trbin/Documents/GitHub/ASTRA_Arm_Inverse_Kinematics_Pre-Calculator/ArmIK/packages/matlab_msg_gen_ros1/win64/install/lib/site-packages/arm_relay/__init__.py
+-- Installing: C:/Users/trbin/Documents/GitHub/ASTRA_Arm_Inverse_Kinematics_Pre-Calculator/ArmIK/packages/matlab_msg_gen_ros1/win64/install/lib/site-packages/arm_relay/__init__.pyc
+-- Installing: C:/Users/trbin/Documents/GitHub/ASTRA_Arm_Inverse_Kinematics_Pre-Calculator/ArmIK/packages/matlab_msg_gen_ros1/win64/install/lib/pkgconfig/arm_relay.pc
+-- Installing: C:/Users/trbin/Documents/GitHub/ASTRA_Arm_Inverse_Kinematics_Pre-Calculator/ArmIK/packages/matlab_msg_gen_ros1/win64/install/share/arm_relay/cmake/arm_relay-msg-extras.cmake
+-- Installing: C:/Users/trbin/Documents/GitHub/ASTRA_Arm_Inverse_Kinematics_Pre-Calculator/ArmIK/packages/matlab_msg_gen_ros1/win64/install/share/arm_relay/cmake/arm_relayConfig.cmake
+-- Installing: C:/Users/trbin/Documents/GitHub/ASTRA_Arm_Inverse_Kinematics_Pre-Calculator/ArmIK/packages/matlab_msg_gen_ros1/win64/install/share/arm_relay/cmake/arm_relayConfig-version.cmake
+-- Installing: C:/Users/trbin/Documents/GitHub/ASTRA_Arm_Inverse_Kinematics_Pre-Calculator/ArmIK/packages/matlab_msg_gen_ros1/win64/install/share/arm_relay/package.xml
+-- Up-to-date: C:/Users/trbin/Documents/GitHub/ASTRA_Arm_Inverse_Kinematics_Pre-Calculator/ArmIK/packages/matlab_msg_gen_ros1/win64/install/include
+-- Up-to-date: C:/Users/trbin/Documents/GitHub/ASTRA_Arm_Inverse_Kinematics_Pre-Calculator/ArmIK/packages/matlab_msg_gen_ros1/win64/install/include/arm_relay
+-- Installing: C:/Users/trbin/Documents/GitHub/ASTRA_Arm_Inverse_Kinematics_Pre-Calculator/ArmIK/packages/matlab_msg_gen_ros1/win64/install/include/arm_relay/visibility_control.h
+-- Installing: C:/Users/trbin/Documents/GitHub/ASTRA_Arm_Inverse_Kinematics_Pre-Calculator/ArmIK/packages/matlab_msg_gen_ros1/win64/install/lib/arm_relay_matlab.lib
+-- Installing: C:/Users/trbin/Documents/GitHub/ASTRA_Arm_Inverse_Kinematics_Pre-Calculator/ArmIK/packages/matlab_msg_gen_ros1/win64/install/bin/arm_relay_matlab.dll
+-- Installing: C:/Users/trbin/Documents/GitHub/ASTRA_Arm_Inverse_Kinematics_Pre-Calculator/ArmIK/packages/matlab_msg_gen_ros1/win64/install/m/
+-- Installing: C:/Users/trbin/Documents/GitHub/ASTRA_Arm_Inverse_Kinematics_Pre-Calculator/ArmIK/packages/matlab_msg_gen_ros1/win64/install/m//+ros
+-- Installing: C:/Users/trbin/Documents/GitHub/ASTRA_Arm_Inverse_Kinematics_Pre-Calculator/ArmIK/packages/matlab_msg_gen_ros1/win64/install/m//+ros/+internal
+-- Installing: C:/Users/trbin/Documents/GitHub/ASTRA_Arm_Inverse_Kinematics_Pre-Calculator/ArmIK/packages/matlab_msg_gen_ros1/win64/install/m//+ros/+internal/+ros
+-- Installing: C:/Users/trbin/Documents/GitHub/ASTRA_Arm_Inverse_Kinematics_Pre-Calculator/ArmIK/packages/matlab_msg_gen_ros1/win64/install/m//+ros/+internal/+ros/+custommessages
+-- Installing: C:/Users/trbin/Documents/GitHub/ASTRA_Arm_Inverse_Kinematics_Pre-Calculator/ArmIK/packages/matlab_msg_gen_ros1/win64/install/m//+ros/+internal/+ros/+custommessages/+arm_relay
+-- Installing: C:/Users/trbin/Documents/GitHub/ASTRA_Arm_Inverse_Kinematics_Pre-Calculator/ArmIK/packages/matlab_msg_gen_ros1/win64/install/m//+ros/+internal/+ros/+custommessages/+arm_relay/actuatorFeedback.m
+-- Installing: C:/Users/trbin/Documents/GitHub/ASTRA_Arm_Inverse_Kinematics_Pre-Calculator/ArmIK/packages/matlab_msg_gen_ros1/win64/install/m//+ros/+internal/+ros/+custommessages/+arm_relay/enableActuatorsRequest.m
+-- Installing: C:/Users/trbin/Documents/GitHub/ASTRA_Arm_Inverse_Kinematics_Pre-Calculator/ArmIK/packages/matlab_msg_gen_ros1/win64/install/m//+ros/+internal/+ros/+custommessages/+arm_relay/enableActuatorsResponse.m
+-- Installing: C:/Users/trbin/Documents/GitHub/ASTRA_Arm_Inverse_Kinematics_Pre-Calculator/ArmIK/packages/matlab_msg_gen_ros1/win64/install/m//+ros/+internal/+ros/+custommessages/+arm_relay/homeArmBaseRequest.m
+-- Installing: C:/Users/trbin/Documents/GitHub/ASTRA_Arm_Inverse_Kinematics_Pre-Calculator/ArmIK/packages/matlab_msg_gen_ros1/win64/install/m//+ros/+internal/+ros/+custommessages/+arm_relay/homeArmBaseResponse.m
+-- Installing: C:/Users/trbin/Documents/GitHub/ASTRA_Arm_Inverse_Kinematics_Pre-Calculator/ArmIK/packages/matlab_msg_gen_ros1/win64/install/m//+ros/+internal/+ros/+custommessages/+arm_relay/jointRateCommand.m
+-- Installing: C:/Users/trbin/Documents/GitHub/ASTRA_Arm_Inverse_Kinematics_Pre-Calculator/ArmIK/packages/matlab_msg_gen_ros1/win64/install/m//+ros/+msggen
+-- Installing: C:/Users/trbin/Documents/GitHub/ASTRA_Arm_Inverse_Kinematics_Pre-Calculator/ArmIK/packages/matlab_msg_gen_ros1/win64/install/m//+ros/+msggen/+arm_relay
+-- Installing: C:/Users/trbin/Documents/GitHub/ASTRA_Arm_Inverse_Kinematics_Pre-Calculator/ArmIK/packages/matlab_msg_gen_ros1/win64/install/m//+ros/+msggen/+arm_relay/ActuatorFeedback.m
+-- Installing: C:/Users/trbin/Documents/GitHub/ASTRA_Arm_Inverse_Kinematics_Pre-Calculator/ArmIK/packages/matlab_msg_gen_ros1/win64/install/m//+ros/+msggen/+arm_relay/EnableActuatorsRequest.m
+-- Installing: C:/Users/trbin/Documents/GitHub/ASTRA_Arm_Inverse_Kinematics_Pre-Calculator/ArmIK/packages/matlab_msg_gen_ros1/win64/install/m//+ros/+msggen/+arm_relay/EnableActuatorsResponse.m
+-- Installing: C:/Users/trbin/Documents/GitHub/ASTRA_Arm_Inverse_Kinematics_Pre-Calculator/ArmIK/packages/matlab_msg_gen_ros1/win64/install/m//+ros/+msggen/+arm_relay/HomeArmBaseRequest.m
+-- Installing: C:/Users/trbin/Documents/GitHub/ASTRA_Arm_Inverse_Kinematics_Pre-Calculator/ArmIK/packages/matlab_msg_gen_ros1/win64/install/m//+ros/+msggen/+arm_relay/HomeArmBaseResponse.m
+-- Installing: C:/Users/trbin/Documents/GitHub/ASTRA_Arm_Inverse_Kinematics_Pre-Calculator/ArmIK/packages/matlab_msg_gen_ros1/win64/install/m//+ros/+msggen/+arm_relay/JointRateCommand.m
+-- Installing: C:/Users/trbin/Documents/GitHub/ASTRA_Arm_Inverse_Kinematics_Pre-Calculator/ArmIK/packages/matlab_msg_gen_ros1/win64/install/share/end_effector_control/msg/ActuatorFeedback.msg
+-- Installing: C:/Users/trbin/Documents/GitHub/ASTRA_Arm_Inverse_Kinematics_Pre-Calculator/ArmIK/packages/matlab_msg_gen_ros1/win64/install/share/end_effector_control/msg/JointRateCommand.msg
+-- Installing: C:/Users/trbin/Documents/GitHub/ASTRA_Arm_Inverse_Kinematics_Pre-Calculator/ArmIK/packages/matlab_msg_gen_ros1/win64/install/share/end_effector_control/srv/EnableServos.srv
+-- Installing: C:/Users/trbin/Documents/GitHub/ASTRA_Arm_Inverse_Kinematics_Pre-Calculator/ArmIK/packages/matlab_msg_gen_ros1/win64/install/share/end_effector_control/srv/Home.srv
+-- Installing: C:/Users/trbin/Documents/GitHub/ASTRA_Arm_Inverse_Kinematics_Pre-Calculator/ArmIK/packages/matlab_msg_gen_ros1/win64/install/share/end_effector_control/cmake/end_effector_control-msg-paths.cmake
+-- Installing: C:/Users/trbin/Documents/GitHub/ASTRA_Arm_Inverse_Kinematics_Pre-Calculator/ArmIK/packages/matlab_msg_gen_ros1/win64/install/include/end_effector_control
+-- Installing: C:/Users/trbin/Documents/GitHub/ASTRA_Arm_Inverse_Kinematics_Pre-Calculator/ArmIK/packages/matlab_msg_gen_ros1/win64/install/include/end_effector_control/ActuatorFeedback.h
+-- Installing: C:/Users/trbin/Documents/GitHub/ASTRA_Arm_Inverse_Kinematics_Pre-Calculator/ArmIK/packages/matlab_msg_gen_ros1/win64/install/include/end_effector_control/EnableServos.h
+-- Installing: C:/Users/trbin/Documents/GitHub/ASTRA_Arm_Inverse_Kinematics_Pre-Calculator/ArmIK/packages/matlab_msg_gen_ros1/win64/install/include/end_effector_control/EnableServosRequest.h
+-- Installing: C:/Users/trbin/Documents/GitHub/ASTRA_Arm_Inverse_Kinematics_Pre-Calculator/ArmIK/packages/matlab_msg_gen_ros1/win64/install/include/end_effector_control/EnableServosResponse.h
+-- Installing: C:/Users/trbin/Documents/GitHub/ASTRA_Arm_Inverse_Kinematics_Pre-Calculator/ArmIK/packages/matlab_msg_gen_ros1/win64/install/include/end_effector_control/Home.h
+-- Installing: C:/Users/trbin/Documents/GitHub/ASTRA_Arm_Inverse_Kinematics_Pre-Calculator/ArmIK/packages/matlab_msg_gen_ros1/win64/install/include/end_effector_control/HomeRequest.h
+-- Installing: C:/Users/trbin/Documents/GitHub/ASTRA_Arm_Inverse_Kinematics_Pre-Calculator/ArmIK/packages/matlab_msg_gen_ros1/win64/install/include/end_effector_control/HomeResponse.h
+-- Installing: C:/Users/trbin/Documents/GitHub/ASTRA_Arm_Inverse_Kinematics_Pre-Calculator/ArmIK/packages/matlab_msg_gen_ros1/win64/install/include/end_effector_control/JointRateCommand.h
+Listing C:/Users/trbin/Documents/GitHub/ASTRA_Arm_Inverse_Kinematics_Pre-Calculator/ArmIK/packages/matlab_msg_gen_ros1/win64/devel/lib/site-packages/end_effector_control ...
+Compiling C:/Users/trbin/Documents/GitHub/ASTRA_Arm_Inverse_Kinematics_Pre-Calculator/ArmIK/packages/matlab_msg_gen_ros1/win64/devel/lib/site-packages/end_effector_control\__init__.py ...
+Listing C:/Users/trbin/Documents/GitHub/ASTRA_Arm_Inverse_Kinematics_Pre-Calculator/ArmIK/packages/matlab_msg_gen_ros1/win64/devel/lib/site-packages/end_effector_control\msg ...
+Compiling C:/Users/trbin/Documents/GitHub/ASTRA_Arm_Inverse_Kinematics_Pre-Calculator/ArmIK/packages/matlab_msg_gen_ros1/win64/devel/lib/site-packages/end_effector_control\msg\_ActuatorFeedback.py ...
+Compiling C:/Users/trbin/Documents/GitHub/ASTRA_Arm_Inverse_Kinematics_Pre-Calculator/ArmIK/packages/matlab_msg_gen_ros1/win64/devel/lib/site-packages/end_effector_control\msg\_JointRateCommand.py ...
+Compiling C:/Users/trbin/Documents/GitHub/ASTRA_Arm_Inverse_Kinematics_Pre-Calculator/ArmIK/packages/matlab_msg_gen_ros1/win64/devel/lib/site-packages/end_effector_control\msg\__init__.py ...
+Listing C:/Users/trbin/Documents/GitHub/ASTRA_Arm_Inverse_Kinematics_Pre-Calculator/ArmIK/packages/matlab_msg_gen_ros1/win64/devel/lib/site-packages/end_effector_control\srv ...
+Compiling C:/Users/trbin/Documents/GitHub/ASTRA_Arm_Inverse_Kinematics_Pre-Calculator/ArmIK/packages/matlab_msg_gen_ros1/win64/devel/lib/site-packages/end_effector_control\srv\_EnableServos.py ...
+Compiling C:/Users/trbin/Documents/GitHub/ASTRA_Arm_Inverse_Kinematics_Pre-Calculator/ArmIK/packages/matlab_msg_gen_ros1/win64/devel/lib/site-packages/end_effector_control\srv\_Home.py ...
+Compiling C:/Users/trbin/Documents/GitHub/ASTRA_Arm_Inverse_Kinematics_Pre-Calculator/ArmIK/packages/matlab_msg_gen_ros1/win64/devel/lib/site-packages/end_effector_control\srv\__init__.py ...
+-- Installing: C:/Users/trbin/Documents/GitHub/ASTRA_Arm_Inverse_Kinematics_Pre-Calculator/ArmIK/packages/matlab_msg_gen_ros1/win64/install/lib/site-packages/end_effector_control
+-- Installing: C:/Users/trbin/Documents/GitHub/ASTRA_Arm_Inverse_Kinematics_Pre-Calculator/ArmIK/packages/matlab_msg_gen_ros1/win64/install/lib/site-packages/end_effector_control/msg
+-- Installing: C:/Users/trbin/Documents/GitHub/ASTRA_Arm_Inverse_Kinematics_Pre-Calculator/ArmIK/packages/matlab_msg_gen_ros1/win64/install/lib/site-packages/end_effector_control/msg/_ActuatorFeedback.py
+-- Installing: C:/Users/trbin/Documents/GitHub/ASTRA_Arm_Inverse_Kinematics_Pre-Calculator/ArmIK/packages/matlab_msg_gen_ros1/win64/install/lib/site-packages/end_effector_control/msg/_ActuatorFeedback.pyc
+-- Installing: C:/Users/trbin/Documents/GitHub/ASTRA_Arm_Inverse_Kinematics_Pre-Calculator/ArmIK/packages/matlab_msg_gen_ros1/win64/install/lib/site-packages/end_effector_control/msg/_JointRateCommand.py
+-- Installing: C:/Users/trbin/Documents/GitHub/ASTRA_Arm_Inverse_Kinematics_Pre-Calculator/ArmIK/packages/matlab_msg_gen_ros1/win64/install/lib/site-packages/end_effector_control/msg/_JointRateCommand.pyc
+-- Installing: C:/Users/trbin/Documents/GitHub/ASTRA_Arm_Inverse_Kinematics_Pre-Calculator/ArmIK/packages/matlab_msg_gen_ros1/win64/install/lib/site-packages/end_effector_control/msg/__init__.py
+-- Installing: C:/Users/trbin/Documents/GitHub/ASTRA_Arm_Inverse_Kinematics_Pre-Calculator/ArmIK/packages/matlab_msg_gen_ros1/win64/install/lib/site-packages/end_effector_control/msg/__init__.pyc
+-- Installing: C:/Users/trbin/Documents/GitHub/ASTRA_Arm_Inverse_Kinematics_Pre-Calculator/ArmIK/packages/matlab_msg_gen_ros1/win64/install/lib/site-packages/end_effector_control/srv
+-- Installing: C:/Users/trbin/Documents/GitHub/ASTRA_Arm_Inverse_Kinematics_Pre-Calculator/ArmIK/packages/matlab_msg_gen_ros1/win64/install/lib/site-packages/end_effector_control/srv/_EnableServos.py
+-- Installing: C:/Users/trbin/Documents/GitHub/ASTRA_Arm_Inverse_Kinematics_Pre-Calculator/ArmIK/packages/matlab_msg_gen_ros1/win64/install/lib/site-packages/end_effector_control/srv/_EnableServos.pyc
+-- Installing: C:/Users/trbin/Documents/GitHub/ASTRA_Arm_Inverse_Kinematics_Pre-Calculator/ArmIK/packages/matlab_msg_gen_ros1/win64/install/lib/site-packages/end_effector_control/srv/_Home.py
+-- Installing: C:/Users/trbin/Documents/GitHub/ASTRA_Arm_Inverse_Kinematics_Pre-Calculator/ArmIK/packages/matlab_msg_gen_ros1/win64/install/lib/site-packages/end_effector_control/srv/_Home.pyc
+-- Installing: C:/Users/trbin/Documents/GitHub/ASTRA_Arm_Inverse_Kinematics_Pre-Calculator/ArmIK/packages/matlab_msg_gen_ros1/win64/install/lib/site-packages/end_effector_control/srv/__init__.py
+-- Installing: C:/Users/trbin/Documents/GitHub/ASTRA_Arm_Inverse_Kinematics_Pre-Calculator/ArmIK/packages/matlab_msg_gen_ros1/win64/install/lib/site-packages/end_effector_control/srv/__init__.pyc
+-- Installing: C:/Users/trbin/Documents/GitHub/ASTRA_Arm_Inverse_Kinematics_Pre-Calculator/ArmIK/packages/matlab_msg_gen_ros1/win64/install/lib/site-packages/end_effector_control/__init__.py
+-- Installing: C:/Users/trbin/Documents/GitHub/ASTRA_Arm_Inverse_Kinematics_Pre-Calculator/ArmIK/packages/matlab_msg_gen_ros1/win64/install/lib/site-packages/end_effector_control/__init__.pyc
+-- Installing: C:/Users/trbin/Documents/GitHub/ASTRA_Arm_Inverse_Kinematics_Pre-Calculator/ArmIK/packages/matlab_msg_gen_ros1/win64/install/lib/pkgconfig/end_effector_control.pc
+-- Installing: C:/Users/trbin/Documents/GitHub/ASTRA_Arm_Inverse_Kinematics_Pre-Calculator/ArmIK/packages/matlab_msg_gen_ros1/win64/install/share/end_effector_control/cmake/end_effector_control-msg-extras.cmake
+-- Installing: C:/Users/trbin/Documents/GitHub/ASTRA_Arm_Inverse_Kinematics_Pre-Calculator/ArmIK/packages/matlab_msg_gen_ros1/win64/install/share/end_effector_control/cmake/end_effector_controlConfig.cmake
+-- Installing: C:/Users/trbin/Documents/GitHub/ASTRA_Arm_Inverse_Kinematics_Pre-Calculator/ArmIK/packages/matlab_msg_gen_ros1/win64/install/share/end_effector_control/cmake/end_effector_controlConfig-version.cmake
+-- Installing: C:/Users/trbin/Documents/GitHub/ASTRA_Arm_Inverse_Kinematics_Pre-Calculator/ArmIK/packages/matlab_msg_gen_ros1/win64/install/share/end_effector_control/package.xml
+-- Up-to-date: C:/Users/trbin/Documents/GitHub/ASTRA_Arm_Inverse_Kinematics_Pre-Calculator/ArmIK/packages/matlab_msg_gen_ros1/win64/install/include
+-- Up-to-date: C:/Users/trbin/Documents/GitHub/ASTRA_Arm_Inverse_Kinematics_Pre-Calculator/ArmIK/packages/matlab_msg_gen_ros1/win64/install/include/end_effector_control
+-- Installing: C:/Users/trbin/Documents/GitHub/ASTRA_Arm_Inverse_Kinematics_Pre-Calculator/ArmIK/packages/matlab_msg_gen_ros1/win64/install/include/end_effector_control/visibility_control.h
+-- Installing: C:/Users/trbin/Documents/GitHub/ASTRA_Arm_Inverse_Kinematics_Pre-Calculator/ArmIK/packages/matlab_msg_gen_ros1/win64/install/lib/end_effector_control_matlab.lib
+-- Installing: C:/Users/trbin/Documents/GitHub/ASTRA_Arm_Inverse_Kinematics_Pre-Calculator/ArmIK/packages/matlab_msg_gen_ros1/win64/install/bin/end_effector_control_matlab.dll
+-- Up-to-date: C:/Users/trbin/Documents/GitHub/ASTRA_Arm_Inverse_Kinematics_Pre-Calculator/ArmIK/packages/matlab_msg_gen_ros1/win64/install/m/
+-- Up-to-date: C:/Users/trbin/Documents/GitHub/ASTRA_Arm_Inverse_Kinematics_Pre-Calculator/ArmIK/packages/matlab_msg_gen_ros1/win64/install/m//+ros
+-- Up-to-date: C:/Users/trbin/Documents/GitHub/ASTRA_Arm_Inverse_Kinematics_Pre-Calculator/ArmIK/packages/matlab_msg_gen_ros1/win64/install/m//+ros/+internal
+-- Up-to-date: C:/Users/trbin/Documents/GitHub/ASTRA_Arm_Inverse_Kinematics_Pre-Calculator/ArmIK/packages/matlab_msg_gen_ros1/win64/install/m//+ros/+internal/+ros
+-- Up-to-date: C:/Users/trbin/Documents/GitHub/ASTRA_Arm_Inverse_Kinematics_Pre-Calculator/ArmIK/packages/matlab_msg_gen_ros1/win64/install/m//+ros/+internal/+ros/+custommessages
+-- Installing: C:/Users/trbin/Documents/GitHub/ASTRA_Arm_Inverse_Kinematics_Pre-Calculator/ArmIK/packages/matlab_msg_gen_ros1/win64/install/m//+ros/+internal/+ros/+custommessages/+end_effector_control
+-- Installing: C:/Users/trbin/Documents/GitHub/ASTRA_Arm_Inverse_Kinematics_Pre-Calculator/ArmIK/packages/matlab_msg_gen_ros1/win64/install/m//+ros/+internal/+ros/+custommessages/+end_effector_control/actuatorFeedback.m
+-- Installing: C:/Users/trbin/Documents/GitHub/ASTRA_Arm_Inverse_Kinematics_Pre-Calculator/ArmIK/packages/matlab_msg_gen_ros1/win64/install/m//+ros/+internal/+ros/+custommessages/+end_effector_control/enableServosRequest.m
+-- Installing: C:/Users/trbin/Documents/GitHub/ASTRA_Arm_Inverse_Kinematics_Pre-Calculator/ArmIK/packages/matlab_msg_gen_ros1/win64/install/m//+ros/+internal/+ros/+custommessages/+end_effector_control/enableServosResponse.m
+-- Installing: C:/Users/trbin/Documents/GitHub/ASTRA_Arm_Inverse_Kinematics_Pre-Calculator/ArmIK/packages/matlab_msg_gen_ros1/win64/install/m//+ros/+internal/+ros/+custommessages/+end_effector_control/homeRequest.m
+-- Installing: C:/Users/trbin/Documents/GitHub/ASTRA_Arm_Inverse_Kinematics_Pre-Calculator/ArmIK/packages/matlab_msg_gen_ros1/win64/install/m//+ros/+internal/+ros/+custommessages/+end_effector_control/homeResponse.m
+-- Installing: C:/Users/trbin/Documents/GitHub/ASTRA_Arm_Inverse_Kinematics_Pre-Calculator/ArmIK/packages/matlab_msg_gen_ros1/win64/install/m//+ros/+internal/+ros/+custommessages/+end_effector_control/jointRateCommand.m
+-- Up-to-date: C:/Users/trbin/Documents/GitHub/ASTRA_Arm_Inverse_Kinematics_Pre-Calculator/ArmIK/packages/matlab_msg_gen_ros1/win64/install/m//+ros/+msggen
+-- Installing: C:/Users/trbin/Documents/GitHub/ASTRA_Arm_Inverse_Kinematics_Pre-Calculator/ArmIK/packages/matlab_msg_gen_ros1/win64/install/m//+ros/+msggen/+end_effector_control
+-- Installing: C:/Users/trbin/Documents/GitHub/ASTRA_Arm_Inverse_Kinematics_Pre-Calculator/ArmIK/packages/matlab_msg_gen_ros1/win64/install/m//+ros/+msggen/+end_effector_control/ActuatorFeedback.m
+-- Installing: C:/Users/trbin/Documents/GitHub/ASTRA_Arm_Inverse_Kinematics_Pre-Calculator/ArmIK/packages/matlab_msg_gen_ros1/win64/install/m//+ros/+msggen/+end_effector_control/EnableServosRequest.m
+-- Installing: C:/Users/trbin/Documents/GitHub/ASTRA_Arm_Inverse_Kinematics_Pre-Calculator/ArmIK/packages/matlab_msg_gen_ros1/win64/install/m//+ros/+msggen/+end_effector_control/EnableServosResponse.m
+-- Installing: C:/Users/trbin/Documents/GitHub/ASTRA_Arm_Inverse_Kinematics_Pre-Calculator/ArmIK/packages/matlab_msg_gen_ros1/win64/install/m//+ros/+msggen/+end_effector_control/HomeRequest.m
+-- Installing: C:/Users/trbin/Documents/GitHub/ASTRA_Arm_Inverse_Kinematics_Pre-Calculator/ArmIK/packages/matlab_msg_gen_ros1/win64/install/m//+ros/+msggen/+end_effector_control/HomeResponse.m
+-- Installing: C:/Users/trbin/Documents/GitHub/ASTRA_Arm_Inverse_Kinematics_Pre-Calculator/ArmIK/packages/matlab_msg_gen_ros1/win64/install/m//+ros/+msggen/+end_effector_control/JointRateCommand.m
+Base path: C:\Users\trbin\Documents\GitHub\ASTRA_Arm_Inverse_Kinematics_Pre-Calculator\ArmIK\packages\matlab_msg_gen_ros1\win64
+Source space: C:\Users\trbin\Documents\GitHub\ASTRA_Arm_Inverse_Kinematics_Pre-Calculator\ArmIK\packages\matlab_msg_gen_ros1\win64\src
+Build space: C:\Users\trbin\Documents\GitHub\ASTRA_Arm_Inverse_Kinematics_Pre-Calculator\ArmIK\packages\matlab_msg_gen_ros1\win64\build
+Devel space: C:\Users\trbin\Documents\GitHub\ASTRA_Arm_Inverse_Kinematics_Pre-Calculator\ArmIK\packages\matlab_msg_gen_ros1\win64\devel
+Install space: C:\Users\trbin\Documents\GitHub\ASTRA_Arm_Inverse_Kinematics_Pre-Calculator\ArmIK\packages\matlab_msg_gen_ros1\win64\install
+Copying file from "C:\PROGRA~1\MATLAB\R2021b\sys\ros1\win64\ros1\share\catkin\cmake\toplevel.cmake" to "C:\Users\trbin\Documents\GitHub\ASTRA_Arm_Inverse_Kinematics_Pre-Calculator\ArmIK\packages\matlab_msg_gen_ros1\win64\src\CMakeLists.txt"
+####
+#### Running command: "cmake C:\Users\trbin\Documents\GitHub\ASTRA_Arm_Inverse_Kinematics_Pre-Calculator\ArmIK\packages\matlab_msg_gen_ros1\win64\src -DBoost_NAMESPACE=mwboost -DCATKIN_ENABLE_TESTING=off -DCMAKE_CXX_COMPILER=cl.exe -DCMAKE_C_COMPILER=cl.exe -DCMAKE_LINKER=link.exe -DMSVC_TOOLSET_VERSION=141 -DCMAKE_PREFIX_PATH=C:\Program Files\MATLAB\R2021b\sys\ros1\win64\ros1;C:/Program Files/MATLAB/R2021b/toolbox/ros/mlroscpp/custom_messages -DCMAKE_BUILD_TYPE=Release -DCMAKE_CXX_FLAGS_RELEASE=/MD /Od /Ob2 /DNDEBUG -DCATKIN_DEVEL_PREFIX=C:\Users\trbin\Documents\GitHub\ASTRA_Arm_Inverse_Kinematics_Pre-Calculator\ArmIK\packages\matlab_msg_gen_ros1\win64\devel -DCMAKE_INSTALL_PREFIX=C:\Users\trbin\Documents\GitHub\ASTRA_Arm_Inverse_Kinematics_Pre-Calculator\ArmIK\packages\matlab_msg_gen_ros1\win64\install -G Ninja" in "C:\Users\trbin\Documents\GitHub\ASTRA_Arm_Inverse_Kinematics_Pre-Calculator\ArmIK\packages\matlab_msg_gen_ros1\win64\build"
+####
+####
+#### Running command: "ninja install install -j12 -l12" in "C:\Users\trbin\Documents\GitHub\ASTRA_Arm_Inverse_Kinematics_Pre-Calculator\ArmIK\packages\matlab_msg_gen_ros1\win64\build"
+####

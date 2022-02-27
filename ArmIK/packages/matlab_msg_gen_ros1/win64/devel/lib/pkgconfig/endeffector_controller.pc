@@ -1,0 +1,8 @@
+prefix=C:/Users/trbin/Documents/GitHub/ASTRA_Arm_Inverse_Kinematics_Pre-Calculator/ArmIK/packages/matlab_msg_gen_ros1/win64/devel
+
+Name: endeffector_controller
+Description: Description of endeffector_controller
+Version: 0.0.0
+Cflags: -IC:/Users/trbin/Documents/GitHub/ASTRA_Arm_Inverse_Kinematics_Pre-Calculator/ArmIK/packages/matlab_msg_gen_ros1/win64/devel/include
+Libs: -LC:/Users/trbin/Documents/GitHub/ASTRA_Arm_Inverse_Kinematics_Pre-Calculator/ArmIK/packages/matlab_msg_gen_ros1/win64/devel/lib 
+Requires: message_runtime message_runtime roscpp
